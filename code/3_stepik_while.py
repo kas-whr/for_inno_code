@@ -20,12 +20,37 @@
 
 
 # 5
-n = int(input())
-i = 2
-while True:
-    if n % i == 0:
-        print(i)
-        break
-    i += 1
+# n = int(input())
+# i = 2
+# while True:
+#     if n % i == 0:
+#         print(i)
+#         break
+#     i += 1
 
 # print(i)
+
+
+# 6
+# a = int(input())
+# max_num = a
+# while a != 0:
+#     if a > max_num:
+#         max_num = a
+#     a = int(input())
+#
+# print(max_num)
+
+
+# 10
+# a = 1
+# b = 1
+# n = int(input())
+# i = 2
+# while i < n:
+#     c = a + b
+#     a = b
+#     b = c
+#     i += 1
+# print(b)
+
