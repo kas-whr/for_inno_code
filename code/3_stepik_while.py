@@ -1,22 +1,39 @@
 # to do: 3, 5, 6, 8, 9, 10*, 11*
 
-# 3
-# a = int(input())
-# sum = 0
-# while a != 0:
-#     sum += a # sum = sum + a
-#     a = int(input())
-#
-# print(sum)
+# TASK 1
+n = int(input())
+n2 = n
+while n != 0:
+    print("[", end="")
+    n -= 1
 
 
-# 4
-# n = int(input())
-# i = 0
-# while i <= n:
-#     i += 1
-#     if n % i == 0:
-#         print(i, end=" ") # print(end="\n")
+while n2 != 0:
+    print("]", end="")
+    n2 -= 1
+
+# TASK 2
+a = ""
+count = 0
+while True:
+    a = int(input())
+    if a == 0:
+        break
+    count += 1
+print(count)
+
+
+# TASK 3
+a = int(input())
+sum = 0
+while a != 0:
+    sum += a # sum = sum + a
+    a = int(input())
+
+print(sum)
+
+
+
 
 
 # 5

@@ -1,5 +1,6 @@
 import random
 
+# самое простое решение
 number = random.randint(0, 100)
 
 print("Добро пожаловать в игру 'угадай число'")

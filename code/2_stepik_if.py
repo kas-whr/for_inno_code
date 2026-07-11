@@ -92,3 +92,19 @@ else:
 
 
 # TASK 10
+a = int(input())
+b = int(input())
+sym = input()
+
+if sym == "+":
+    print(a + b)
+elif sym == "-":
+    print(a - b)
+elif sym == "*":
+    print(a * b)
+elif sym == "/" and b == 0:
+    print("На ноль делить нельзя!")
+elif sym == "/":
+    print(a / b)
+else:
+    print("Неверная операция")
