@@ -174,14 +174,14 @@ str2 = 'Hello'
 # print(ord('❤️'))
 
 
-str = "hello"
-
-s2 = ""
-for i in range(len(str)):
-    s = str[i]
-    print(i, str[i])
-
-
+# str = "hello"
+#
+# for i in range(len(str)):
+#     s = str[i]
+#     print(i, str[i])
+#
+# for s in str:
+#     print(s)
 
 
 
